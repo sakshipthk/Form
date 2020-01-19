@@ -1,8 +1,9 @@
 <html>
 <head>
-
+<link rel="stylesheet" type="text/css" href="form2.css">
 </head>
-<body style="background-color:powderblue;">
+<body>
+<h1> REGISTRATION FORM </h1>
 <form method="post">
 <table text-align:center>
 <tr>
@@ -23,21 +24,34 @@ Mobile
 <br>
 </td>
 </tr>
+<!--
 <tr>
 <td>
+
 Gender
 </td>
-<td> 
-  <input type="radio" name="gender" value="male" required> Male
+<td>
+  <input type="radio" name="gender" value="male" required> Male<br>
+
   <input type="radio" name="gender" value="female" required> Female<br>
 </td>
 </tr>
+-->
 <tr>
 <td>
 DOB
 </td>
 <td>
 <input type="date" name="Date" required><br>
+</td>
+</tr>
+<tr>
+<td>
+<p style="width: 100px height: 200px"> Hobbies
+</td>
+<td>
+<textarea style=" width:1200px" class="hobbies" rows="7" cols="50">
+</textarea>
 </td>
 </tr>
 <tr>
@@ -57,12 +71,14 @@ Password
 <br>
 </td>
 </tr>
-
+<br>
+<br>
+</form>
 <td colspan="2" align=center>
 <button type="submit" value="Submit" style="text-align:center"> Submit</button>
 </td>
 </table>
 
-</form>
+
 </body>
 </html>
