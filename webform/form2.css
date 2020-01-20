@@ -1,0 +1,13 @@
+body{
+background-color:lightblue;
+color:black;
+}
+h1{
+text-align:center;
+}
+input {
+width:1200px;  
+border: 2px solid black;
+  border-radius: 4px;
+  color:blue
+}
